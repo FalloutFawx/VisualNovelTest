@@ -1,13 +1,15 @@
 fileFormatVersion: 2
 guid: 66eb932cd45d7be4bb135042adc13dfe
-timeCreated: 1521063010
+timeCreated: 1521418373
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: (Rose)Yawn_1
+    21300000: (Rose)Yawn_Default
     21300002: (Rose)Yawn_2
     21300004: (Rose)Yawn_3
     21300006: (Rose)Yawn_4
+    21300008: (Rose)Yawn_closeup
+    21300010: (Rose)Yawn_default
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -80,11 +82,41 @@ TextureImporter:
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: (Rose)Yawn_1
+      name: (Rose)Yawn_default
       rect:
         serializedVersion: 2
         x: 1644
@@ -98,41 +130,13 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
     - serializedVersion: 2
-      name: (Rose)Yawn_2
+      name: (Rose)Yawn_closeup
       rect:
         serializedVersion: 2
-        x: 2097
-        y: 336
-        width: 79
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: (Rose)Yawn_3
-      rect:
-        serializedVersion: 2
-        x: 1828
-        y: 319
-        width: 36
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: (Rose)Yawn_4
-      rect:
-        serializedVersion: 2
-        x: 2259
-        y: 321
-        width: 12
-        height: 7
+        x: 1583
+        y: 1325
+        width: 1215
+        height: 1594
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
