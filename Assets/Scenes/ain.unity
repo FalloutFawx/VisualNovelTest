@@ -192,7 +192,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 84565507}
   selectedCommands:
-  - {fileID: 84565520}
+  - {fileID: 84565515}
   variables: []
   description: 
   stepPause: 0
@@ -2072,7 +2072,7 @@ Prefab:
     - target: {fileID: 224374076433410826, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 51.206284
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224333475512134240, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
@@ -2092,7 +2092,7 @@ Prefab:
     - target: {fileID: 224333475512134240, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -45.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224333475512134240, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
@@ -2102,7 +2102,7 @@ Prefab:
     - target: {fileID: 224363398762389522, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: -437.133
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224374076433410826, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
