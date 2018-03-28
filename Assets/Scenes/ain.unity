@@ -183,7 +183,7 @@ MonoBehaviour:
   scrollPos: {x: 194.51595, y: 6.093067}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 524
+  blockViewHeight: 307
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -194,7 +194,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 84565507}
   selectedCommands:
-  - {fileID: 84565523}
+  - {fileID: 84565515}
   variables: []
   description: 
   stepPause: 0
@@ -1047,7 +1047,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 321541489}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 1226d54dc344c8349afad33cff99f47e, type: 3}
+  portrait: {fileID: 21300000, guid: 3f0fd359068489a40ad87fb19d9fccd3, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 167898002}
@@ -1445,6 +1445,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 1226d54dc344c8349afad33cff99f47e, type: 3}
   - {fileID: 21300000, guid: 983c03894bddee44ebce8d5093cc40e7, type: 3}
   - {fileID: 21300000, guid: a31da84e3ed92d447971f732f17dc5e0, type: 3}
+  - {fileID: 21300000, guid: 3f0fd359068489a40ad87fb19d9fccd3, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 1528432270}
   description: 
@@ -2199,12 +2200,12 @@ Prefab:
     - target: {fileID: 224374076433410826, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -183.61943
       objectReference: {fileID: 0}
     - target: {fileID: 224374076433410826, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: 52.619434
       objectReference: {fileID: 0}
     - target: {fileID: 224333475512134240, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
@@ -2219,32 +2220,32 @@ Prefab:
     - target: {fileID: 224333475512134240, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 960.00006
+      value: 1070.3271
       objectReference: {fileID: 0}
     - target: {fileID: 224333475512134240, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -45.5
       objectReference: {fileID: 0}
     - target: {fileID: 224333475512134240, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 1820.0001
+      value: 2040.6543
       objectReference: {fileID: 0}
     - target: {fileID: 224363398762389522, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: 0
+      value: -735.05646
       objectReference: {fileID: 0}
     - target: {fileID: 224374076433410826, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 960.00006
+      value: 1070.3271
       objectReference: {fileID: 0}
     - target: {fileID: 224374076433410826, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 1820.0001
+      value: 2040.6543
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a11d18d545bfeb54bb512966761b26e0, type: 2}
