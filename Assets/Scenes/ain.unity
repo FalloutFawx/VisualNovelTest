@@ -169,6 +169,12 @@ GameObject:
   - component: {fileID: 84565530}
   - component: {fileID: 84565531}
   - component: {fileID: 84565529}
+  - component: {fileID: 84565538}
+  - component: {fileID: 84565537}
+  - component: {fileID: 84565536}
+  - component: {fileID: 84565535}
+  - component: {fileID: 84565534}
+  - component: {fileID: 84565533}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -189,11 +195,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -101.95647, y: 29.576412}
+  scrollPos: {x: -70.93079, y: 28.056475}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 316
-  zoom: 0.8800001
+  zoom: 0.7900002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -203,7 +209,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 84565507}
   selectedCommands:
-  - {fileID: 84565529}
+  - {fileID: 84565533}
   variables: []
   description: 
   stepPause: 0
@@ -319,7 +325,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 26.510353
     y: 37.20298
-    width: 185.22725
+    width: 185.44301
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -478,7 +484,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 72.34043
     y: 206.65952
-    width: 170.45453
+    width: 172.78479
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -639,7 +645,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 34.156292
     y: 136.30696
-    width: 136.36362
+    width: 136.07593
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -849,7 +855,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 407.1968
     y: 156.19728
-    width: 136.36362
+    width: 139.8734
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -873,6 +879,12 @@ MonoBehaviour:
   - {fileID: 84565524}
   - {fileID: 84565530}
   - {fileID: 84565529}
+  - {fileID: 84565538}
+  - {fileID: 84565537}
+  - {fileID: 84565536}
+  - {fileID: 84565535}
+  - {fileID: 84565534}
+  - {fileID: 84565533}
 --- !u!114 &84565508
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1507,6 +1519,171 @@ MonoBehaviour:
     you piece of shi-"'
   description: 
   character: {fileID: 181408029}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &84565533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84565483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 52
+  indentLevel: 0
+  storyText: '"{i} Looks like its time to start the show! {/i}"'
+  description: 
+  character: {fileID: 153299572}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &84565534
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84565483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 51
+  indentLevel: 0
+  storyText: '{i}Suddenly the plane starts to lurch to the side, engine stuttering
+    beneath us. I reach out to grip at one of the seats, eyes widening in a sheer
+    panic. Were we going to crash? This isn''t how I want to die! Not at all! Oh fu-
+    A high pitched laugh comes from the fuzzy mascot creature behind me, clapping
+    his hands together in an unusal state of glee{/i}'
+  description: 
+  character: {fileID: 321541489}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &84565535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84565483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 50
+  indentLevel: 0
+  storyText: '" Another time Rose"'
+  description: 
+  character: {fileID: 153299572}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &84565536
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84565483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 49
+  indentLevel: 0
+  storyText: '" It''s great to meet you! I''ve seen every episode of your show , at
+    least twice! Remember that time when Super Slo-"'
+  description: 
+  character: {fileID: 321541489}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &84565537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84565483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 48
+  indentLevel: 0
+  storyText: '{i} I take the hand anyway, this mascot is the legend of Epsum! Ava
+    the Axolotl! But don''t ask me why tthe mascot of the show as an axolotl of all
+    things. He gives my hand a firm shake, before pulling it back and holding it to
+    his chest {/i}'
+  description: 
+  character: {fileID: 321541489}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &84565538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84565483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 47
+  indentLevel: 0
+  storyText: '{i} The mascot reaches out one of of his glove covered hands, it was
+    baggy and...was that a stain on the sleeve? {/i} '
+  description: 
+  character: {fileID: 321541489}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
