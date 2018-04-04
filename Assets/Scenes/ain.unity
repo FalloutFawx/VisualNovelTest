@@ -162,9 +162,6 @@ GameObject:
   - component: {fileID: 84565526}
   - component: {fileID: 84565525}
   - component: {fileID: 84565524}
-  - component: {fileID: 84565490}
-  - component: {fileID: 84565527}
-  - component: {fileID: 84565528}
   - component: {fileID: 84565532}
   - component: {fileID: 84565530}
   - component: {fileID: 84565531}
@@ -175,6 +172,18 @@ GameObject:
   - component: {fileID: 84565535}
   - component: {fileID: 84565534}
   - component: {fileID: 84565533}
+  - component: {fileID: 84565490}
+  - component: {fileID: 84565539}
+  - component: {fileID: 84565528}
+  - component: {fileID: 84565527}
+  - component: {fileID: 84565541}
+  - component: {fileID: 84565540}
+  - component: {fileID: 84565543}
+  - component: {fileID: 84565544}
+  - component: {fileID: 84565542}
+  - component: {fileID: 84565545}
+  - component: {fileID: 84565547}
+  - component: {fileID: 84565546}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -195,11 +204,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -70.93079, y: 28.056475}
+  scrollPos: {x: -146.49542, y: -79.61854}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 316
-  zoom: 0.7900002
+  zoom: 0.7300002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -207,9 +216,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 84565507}
+  - {fileID: 84565543}
   selectedCommands:
-  - {fileID: 84565533}
+  - {fileID: 84565546}
   variables: []
   description: 
   stepPause: 0
@@ -323,9 +332,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 26.510353
-    y: 37.20298
-    width: 185.44301
+    x: 241.26431
+    y: 83.10459
+    width: 167.8082
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -383,23 +392,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 84565483}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Script: {fileID: 11500000, guid: 616cd37e21c7645c58a89edf5abee56f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 326.9171
-    y: 36.65951
-    width: 120
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 41
-  blockName: New Block
-  description: 
-  eventHandler: {fileID: 84565528}
-  commandList:
-  - {fileID: 84565527}
+  itemId: 53
+  indentLevel: 0
+  duration: 0.5
+  amount: {x: 1, y: 1}
+  waitUntilFinished: 0
 --- !u!4 &84565491
 Transform:
   m_ObjectHideFlags: 0
@@ -482,9 +482,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 72.34043
-    y: 206.65952
-    width: 172.78479
+    x: 236.27475
+    y: 175.512
+    width: 155.47943
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -511,13 +511,13 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'Being chosen to be in the game was an honor, although only very specific
     people were chosen. People with {w=0.4}.. {w=0.4}talents. {w=0.4}Specific talents.
-    {w=0.4}One in a million children that were born on the blood moon, like (Rose).{w=0.4}Be
-    it flight, speed, transformation and the likes they were pent up against eachother,
-    it was an attempt to kill off the weak, use the strong for military forces, for
-    soldiers, guards of the state. {w=0.4}When watching on the tv normal citizens
-    were made to believe they were fake, the talents were fake, and the deaths were
-    fake. {w=0.4}Good CGI, the editors of the show were truly amazing! {w=0.4}How
-    fun it must be to be in a show like this! '
+    {w=0.4}One in a million children that were born on the blood moon, like Rose.{w=0.4}Be
+    it flight, speed, transformation and the likes they were pent up against eachother.It
+    was an attempt to kill off the weak, use the strong for military forces, for soldiers,
+    guards of the state. {w=0.4}When watching on the tv normal citizens were made
+    to believe they were fake, the talents were fake, and the deaths were fake. {w=0.4}Good
+    CGI, the editors of the show were truly amazing! {w=0.4}How fun it must be to
+    be in a show like this! '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -643,9 +643,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 34.156292
-    y: 136.30696
-    width: 136.07593
+    x: 252.18896
+    y: 126.4709
+    width: 123.97258
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -853,9 +853,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 407.1968
-    y: 156.19728
-    width: 139.8734
+    x: 426.35245
+    y: 202.70522
+    width: 126.71231
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -883,8 +883,10 @@ MonoBehaviour:
   - {fileID: 84565537}
   - {fileID: 84565536}
   - {fileID: 84565535}
+  - {fileID: 84565490}
   - {fileID: 84565534}
   - {fileID: 84565533}
+  - {fileID: 84565545}
 --- !u!114 &84565508
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -1393,34 +1395,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 84565483}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 42
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 84565507}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
+  parentBlock: {fileID: 84565539}
+  waitForFrames: 1
 --- !u!114 &84565528
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 84565483}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  parentBlock: {fileID: 84565490}
-  waitForFrames: 1
+  itemId: 55
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 1457117963}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
 --- !u!114 &84565529
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 84565483}
@@ -1446,7 +1448,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &84565530
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 84565483}
@@ -1475,7 +1477,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &84565531
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 84565483}
@@ -1504,7 +1506,7 @@ MonoBehaviour:
   waitUntilFinished: 0
 --- !u!114 &84565532
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 84565483}
@@ -1531,7 +1533,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &84565533
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 84565483}
@@ -1557,7 +1559,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &84565534
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 84565483}
@@ -1587,7 +1589,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &84565535
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 84565483}
@@ -1613,7 +1615,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &84565536
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 84565483}
@@ -1640,7 +1642,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &84565537
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 84565483}
@@ -1652,7 +1654,7 @@ MonoBehaviour:
   itemId: 48
   indentLevel: 0
   storyText: '{i} I take the hand anyway, this mascot is the legend of Epsum! Ava
-    the Axolotl! But don''t ask me why tthe mascot of the show as an axolotl of all
+    the Axolotl! But don''t ask me why the mascot of the show as an axolotl of all
     things. He gives my hand a firm shake, before pulling it back and holding it to
     his chest {/i}'
   description: 
@@ -1669,7 +1671,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &84565538
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 84565483}
@@ -1694,6 +1696,234 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &84565539
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84565483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 263.6471
+    y: 25.039547
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 54
+  blockName: New Block
+  description: 
+  eventHandler: {fileID: 84565527}
+  commandList:
+  - {fileID: 84565528}
+  - {fileID: 84565541}
+  - {fileID: 84565540}
+--- !u!114 &84565540
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84565483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 57
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 84565488}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &84565541
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84565483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 56
+  indentLevel: 0
+  storyText: Welcome to Epsum! This is a small demo of the game to come! Click to
+    start.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &84565542
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84565483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 60
+  indentLevel: 0
+  storyText: 'Thank you for playing the demo! Please tell me what you think by leaving
+    comments below. Any critisism is welcome at this point.Also this project was made
+    with the help of unitys Fungus program. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &84565543
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84565483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 566.9256
+    y: 179.13782
+    width: 120
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 58
+  blockName: New Block1
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 84565547}
+  - {fileID: 84565546}
+  - {fileID: 84565544}
+  - {fileID: 84565542}
+--- !u!114 &84565544
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84565483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 59
+  indentLevel: 0
+  duration: 1
+  fadeOut: 0
+  targetView: {fileID: 1457117963}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+--- !u!114 &84565545
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84565483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 61
+  indentLevel: 0
+  targetFlowchart: {fileID: 0}
+  targetBlock: {fileID: 84565543}
+  startLabel:
+    stringRef: {fileID: 0}
+    stringVal: 
+  startIndex: 0
+  callMode: 0
+--- !u!114 &84565546
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84565483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 63
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 321541489}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: a31da84e3ed92d447971f732f17dc5e0, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 167898002}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &84565547
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 84565483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 62
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 321541489}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
 --- !u!1 &153299571
 GameObject:
   m_ObjectHideFlags: 0
@@ -1844,7 +2074,7 @@ Transform:
   - {fileID: 1906251403}
   - {fileID: 327111957}
   m_Father: {fileID: 1715754626}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &181408028
 GameObject:
@@ -2575,7 +2805,7 @@ Transform:
   - {fileID: 509422847}
   - {fileID: 956895121}
   m_Father: {fileID: 1715754626}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1182974149
 Prefab:
@@ -2687,7 +2917,7 @@ Prefab:
     - target: {fileID: 224374076433410826, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: -183.64885
+      value: -183.67834
       objectReference: {fileID: 0}
     - target: {fileID: 224374076433410826, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
@@ -2707,7 +2937,7 @@ Prefab:
     - target: {fileID: 224333475512134240, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 1069.7289
+      value: 1069.1305
       objectReference: {fileID: 0}
     - target: {fileID: 224333475512134240, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
@@ -2717,7 +2947,7 @@ Prefab:
     - target: {fileID: 224333475512134240, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 2039.4578
+      value: 2038.261
       objectReference: {fileID: 0}
     - target: {fileID: 224363398762389522, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
@@ -2727,12 +2957,42 @@ Prefab:
     - target: {fileID: 224374076433410826, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: 1069.7289
+      value: 1069.1305
       objectReference: {fileID: 0}
     - target: {fileID: 224374076433410826, guid: a11d18d545bfeb54bb512966761b26e0,
         type: 2}
       propertyPath: m_SizeDelta.x
-      value: 2039.4578
+      value: 2038.261
+      objectReference: {fileID: 0}
+    - target: {fileID: 114431167155961804, guid: a11d18d545bfeb54bb512966761b26e0,
+        type: 2}
+      propertyPath: inputSound
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114431167155961804, guid: a11d18d545bfeb54bb512966761b26e0,
+        type: 2}
+      propertyPath: beepSounds.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114431167155961804, guid: a11d18d545bfeb54bb512966761b26e0,
+        type: 2}
+      propertyPath: beepSounds.Array.data[1]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114431167155961804, guid: a11d18d545bfeb54bb512966761b26e0,
+        type: 2}
+      propertyPath: beepSounds.Array.data[2]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114431167155961804, guid: a11d18d545bfeb54bb512966761b26e0,
+        type: 2}
+      propertyPath: audioMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114431167155961804, guid: a11d18d545bfeb54bb512966761b26e0,
+        type: 2}
+      propertyPath: soundEffect
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: a11d18d545bfeb54bb512966761b26e0, type: 2}
@@ -2871,6 +3131,50 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1457117961
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: e0d427add844a4d9faf970a3afa07583, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1457117962}
+  - component: {fileID: 1457117963}
+  m_Layer: 0
+  m_Name: dark
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1457117962
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: e0d427add844a4d9faf970a3afa07583, type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1457117961}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -149.6, y: 13.57, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1715754626}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1457117963
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 11400000, guid: e0d427add844a4d9faf970a3afa07583,
+    type: 2}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1457117961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewSize: 1
+  primaryAspectRatio: {x: 52.9, y: 13.09}
+  secondaryAspectRatio: {x: 2, y: 1}
 --- !u!1 &1465167570
 GameObject:
   m_ObjectHideFlags: 0
@@ -3016,6 +3320,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
+  - {fileID: 1457117962}
   - {fileID: 1127529438}
   - {fileID: 170975910}
   m_Father: {fileID: 0}
